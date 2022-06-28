@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Health Check plugin for Craft CMS 3.x
+ * Health Check plugin for Craft CMS 4.x
  *
  * Add health checks to your Craft website, useful when running inside of Docker
  *
@@ -45,7 +45,7 @@ class LivenessController extends Controller
      *         The actions must be in 'kebab-case'
      * @access protected
      */
-    protected $allowAnonymous = ['index'];
+    protected array|int|bool $allowAnonymous = ['index'];
 
     // Public Methods
     // =========================================================================

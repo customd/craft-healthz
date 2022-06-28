@@ -6,7 +6,7 @@ Add Kubernetes style health checks to your Craft site.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 4.0.0-alpha or later.
 
 ## Installation
 

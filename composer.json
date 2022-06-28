@@ -38,5 +38,14 @@
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/jasonmccallister/craft-healthz/master/CHANGELOG.md",
         "class": "mccallister\\healthz\\Healthz"
+    },
+    "require-dev": {
+        "craftcms/rector": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
     }
 }
