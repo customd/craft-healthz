@@ -24,7 +24,7 @@
         "email": "themccallister@gmail.com"
     }],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1"
+        "craftcms/cms": "^4.0.0-alpha"
     },
     "autoload": {
         "psr-4": {
