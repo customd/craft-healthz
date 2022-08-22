@@ -6,7 +6,7 @@ Add Kubernetes style health checks to your Craft site.
 
 ## Requirements
 
-This plugin requires Craft CMS 4.0.0-alpha or later.
+This plugin requires Craft CMS 3.x / 4.x
 
 ## Installation
 
@@ -18,7 +18,7 @@ To install the plugin, follow these instructions.
 
 2.  Then tell Composer to load the plugin:
 
-        composer require mccallister/healthz
+        composer require customd/healthz
 
 3.  In the Control Panel, go to Settings → Plugins and click the “Install” button for Healthz.
 

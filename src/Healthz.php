@@ -1,6 +1,6 @@
 <?php
 
-namespace mccallister\healthz;
+namespace customd\healthz;
 
 use Craft;
 use craft\base\Plugin;

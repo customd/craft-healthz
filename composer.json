@@ -1,5 +1,5 @@
 {
-    "name": "mccallister/healthz",
+    "name": "customd/healthz",
     "description": "Add health checks to your Craft website, useful when running inside of Docker",
     "type": "craft-plugin",
     "keywords": [
@@ -14,21 +14,26 @@
         "load balancer"
     ],
     "support": {
-        "docs": "https://github.com/jasonmccallister/craft-healthz",
-        "issues": "https://github.com/jasonmccallister/craft-healthz/issues"
+        "docs": "https://github.com/customd/craft-healthz",
+        "issues": "https://github.com/customd/craft-healthz/issues"
     },
     "license": "MIT",
     "authors": [{
         "name": "Jason McCallister",
         "homepage": "https://mccallister.io",
         "email": "themccallister@gmail.com"
-    }],
+    },
+    {
+        "name": "Custom D",
+        "homepage": "https://customd.com"
+    }
+],
     "require": {
-        "craftcms/cms": "^4.0.0-alpha"
+        "craftcms/cms": "^3.0.0|^4.0.0"
     },
     "autoload": {
         "psr-4": {
-            "mccallister\\healthz\\": "src/"
+            "customd\\healthz\\": "src/"
         }
     },
     "extra": {
@@ -36,8 +41,8 @@
         "handle": "healthz",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/jasonmccallister/craft-healthz/master/CHANGELOG.md",
-        "class": "mccallister\\healthz\\Healthz"
+        "changelogUrl": "https://raw.githubusercontent.com/customd/craft-healthz/master/CHANGELOG.md",
+        "class": "cusotmd\\healthz\\Healthz"
     },
     "require-dev": {
         "craftcms/rector": "dev-main"
